@@ -1,7 +1,27 @@
 aid: vivere
 name: Vivere
-description: Vivere is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vivere Partners is a technology-enabled Managing General Agent (MGA) that
+  provides specialty property and management liability insurance solutions for
+  complex risks. Founded and led by CEO Christopher McKechnie, who brings more
+  than 25 years of insurance industry experience, Vivere combines deep
+  underwriting expertise with advanced analytics and alternative data to deliver
+  faster quotes, tailored coverage, and competitive terms for niche insurance
+  lines, while giving carriers and capacity providers greater portfolio
+  performance visibility. The company raised $7.5 million in seed funding led by
+  General Catalyst, with participation from Pathlight Ventures and Greenlight Re.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/c2M4uxPkH1erA9j2XtWOIN3T6QY.png
 url: https://raw.githubusercontent.com/api-evangelist/vivere/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Insurance
+- InsurTech
+- MGA
+- Managing General Agent
+- Specialty Property
+- Management Liability
+- Underwriting
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vivere-domain-security.yml
+- type: Website
+  url: https://www.viverepartners.com
+- type: PrivacyPolicy
+  url: https://www.viverepartners.com/privacy-policy
+- type: TermsOfService
+  url: https://www.viverepartners.com/ts-cs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
