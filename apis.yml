@@ -10,6 +10,17 @@ description: >-
   lines, while giving carriers and capacity providers greater portfolio
   performance visibility. The company raised $7.5 million in seed funding led by
   General Catalyst, with participation from Pathlight Ventures and Greenlight Re.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
